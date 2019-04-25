@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+  background: #e1e1e1;
+
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  height: 12vh;
+  background: #234c8e;
+  margin-bottom: 10px;
+}
+
+.logo-part {
+  height: 10vh;
+  margin-top: 5px;
+  margin-left: 30px;
+  background: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.space-part {
+  height: 10vh;
+}
+
+.bar-part {
+  height: 10vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+
+li {
+
+	text-align: center;
+	list-style: none;
+}
+
+.home-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.about-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.order-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.orderapp {
+  font-family: Gotham Black;
+  border: 2px #234c8e solid;
+  color: #234c8e;
+  font-size: 25px;
+  padding: 10px;
+  height: 8vh;
+  width: 25vw;
+  margin-left: 500px;
+  margin-top: 30px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.nacoad {
+  border:  2px #234c8e solid;
+  height: 35vh;
+  padding: 28px;
+  margin: 50px;
+  text align: left;
+  font-family: Tahoma;
+  color: #234c8e;
+}
+
+.kindloc {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 29px;
+  height: 40vh;
+  margin: 2px;
+}
+
+.kind {
+  border: 2px #234c8e solid;
+  height: 40vh;
+  margin: 15px;
+  padding: 5px;
+  color: #234c8e;
+  font-family: Tahoma;
+}
+
+.location {
+  border: 2px #234c8e solid;
+  height: 40vh;
+  margin: 15px;
+  padding: 5px;
+  color: #234c8e;
+  font-family: Tahoma;
+}
+
+.refapp {
+  font-family: Gotham Black;
+  border: 2px #234c8e solid;
+  color: #234c8e;
+  font-size: 25px;
+  padding: 10px;
+  height: 8vh;
+  width: 25vw;
+  margin: 25px;
+  margin-top: 60px;
+  margin-left: 500px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.itda {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 29px;
+  height: 40vh;
+  margin: 2px;
+}
+
+.item {
+  border: 2px #234c8e solid;
+  height: 40vh;
+  margin: 15px;
+  padding: 5px;
+  color: #234c8e;
+  font-family: Tahoma;
+}
+
+.date {
+  border: 2px #234c8e solid;
+  height: 40vh;
+  margin: 15px;
+  padding: 5px;
+  color: #234c8e;
+  font-family: Tahoma;
+}
+
+.reason {
+  border:  2px #234c8e solid;
+  height: 35vh;
+  padding: 28px;
+  margin: 50px;
+  text align: left;
+  font-family: Tahoma;
+  color: #234c8e;
+}
+
+.copyright {
+  background: #234c8e;
+  height: 4vh;
+  font-size: 22px;
+  font-family: Quicksand;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-top: 5px;
+}

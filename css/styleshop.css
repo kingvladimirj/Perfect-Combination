@@ -1,0 +1,225 @@
+body {
+  margin: 0px;
+  background: #e1e1e1;
+
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  height: 12vh;
+  background: #234c8e;
+  margin-bottom: 10px;
+}
+
+.logo-part {
+  height: 10vh;
+  margin-top: 5px;
+  margin-left: 30px;
+  background: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.space-part {
+  height: 10vh;
+}
+
+.bar-part {
+  height: 10vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+
+li {
+
+	text-align: center;
+	list-style: none;
+}
+
+.home-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.about-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.order-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.one {
+  height: 30vh;
+  background: url(../images/first.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.first {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 160px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.two {
+  height: 30vh;
+  background: url(../images/second.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.second {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 160px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.three {
+  height: 30vh;
+  background: url(../images/third.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.third {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 190px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.four {
+  height: 30vh;
+  background: url(../images/fourth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.fourth {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 190px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.five {
+  height: 30vh;
+  background: url(../images/fifth.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.fifth {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 150px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.six {
+  height: 30vh;
+  background: url(../images/sixth.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 20px;
+}
+
+.sixth {
+  text-align: center;
+  font-size: 20px;
+  font-family: Gotham Black;
+  margin-left: 190px;
+  color: #234c8e;
+  margin-bottom: 20px;
+}
+
+.button {
+	background: #234c8e;
+	color: #e1e1e1;
+  font-family: Quicksand;
+	padding: 5px;
+	border-radius: 6px;
+  margin: 60px;
+  margin-left: 285px;
+}
+
+.copyright {
+  background: #234c8e;
+  height: 4vh;
+  font-size: 22px;
+  font-family: Quicksand;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-top: 5px;
+}

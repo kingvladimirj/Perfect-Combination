@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+  background: #e1e1e1;
+}
+
+.top-part{
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+  height: 12vh;
+  background: #234c8e;
+  margin-bottom: 10px;
+}
+
+.logo-part {
+  height: 10vh;
+  margin-top: 5px;
+  margin-left: 30px;
+  background: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.space-part {
+  height: 10vh;
+}
+
+.bar-part {
+  height: 10vh;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2px;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+
+li {
+
+	text-align: center;
+	list-style: none;
+}
+
+.home-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.about-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.shop-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.order-part {
+	padding: 10px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	font-family: Gotham Black;
+}
+
+.photo {
+  border: 2px black solid
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60vh;
+  background: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description {
+  margin: 20px;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  height: 20vh;
+  font-family: Gotham Black;
+  color: #234c8e;
+
+}
+
+.sell {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 70vh;
+  margin: 20px;
+  margin-top: 4px;
+}
+
+.a {
+  grid-column: 1/2;
+  height: 70vh;
+}
+
+.p-a {
+  margin: 5px;
+  padding: 40px;
+  border-radius: 100% 100% 100% 100%;
+  height: 50vh;
+  background: url(../images/cellphone.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.a-text {
+  font-size: 40px;
+  text-align: center;
+  font-family: Quicksand;
+  color:#234c8e;
+}
+
+.b {
+  grid-column: 2/3;
+  height: 70vh;
+}
+
+.p-b {
+  margin: 5px;
+  padding: 40px;
+  border-radius: 100% 100% 100% 100%;
+  height: 50vh;
+  background: url(../images/computer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.b-text {
+  font-size: 40px;
+  text-align: center;
+  font-family: Quicksand;
+  color:#234c8e;
+}
+
+
+.c {
+  grid-column: 3/4;
+  height: 70vh;
+}
+
+.p-c {
+  margin: 5px;
+  padding: 40px;
+  border-radius: 50%;
+  height: 50vh;
+  background: url(../images/laptop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c-text {
+  font-size: 40px;
+  text-align: center;
+  font-family: Quicksand;
+  color:#234c8e;
+}
+
+.copyright {
+  background: #234c8e;
+  height: 4vh;
+  font-size: 22px;
+  font-family: Quicksand;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  margin-top: 5px;
+}
